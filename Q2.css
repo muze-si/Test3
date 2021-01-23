@@ -1,0 +1,62 @@
+div{
+    font-size:15px;
+    padding:10px;
+    color:white;
+    background:#6531c5;
+    }
+    
+    form{
+    width:800px;
+    height: 450px;
+    margin:20px auto;
+    font-size:15px;
+    background: #f7f7ff;
+    color:#350636;
+    }
+    
+    table{
+    margin: 40px auto;
+    }
+    
+    input[type="text"]{
+    height: 20px;
+    margin-top: 10px;
+    background:#ffffff;
+    border-radius: 5px;
+    border: 1px solid #6531c5;
+    outline: none;
+    }
+    
+    input[type="password"]{
+    height: 20px;
+    margin-top: 10px;
+    background:#ffffff;
+    border-radius: 5px;
+    border: 1px solid #6531c5;
+    outline: none;
+    }
+
+    input[type="radio"]{
+    margin-top: 10px;
+    background:#ffffff;
+    }
+    
+    input[type="text"]:hover{
+    background:#c7b3df;
+    }
+    
+    input[type="password"]:hover{
+    background:#c7b3df;
+    }
+    
+    input[type="button"]{
+    background:#6531c5 ;
+    color:white;
+    border:#6531c5 3px;
+    font-size:15px;
+    font-weight:bold;
+    width:120px;
+    height:40px;
+    margin-top: 35px;
+    margin-left: 60px;
+    }
