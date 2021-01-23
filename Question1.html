@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+  <html>
+     <head>
+          <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+          <title>ToDoList</title>
+          <link rel="stylesheet" href="Q1.css">
+    </head>
+     <body>
+         <div class="head">ToDoList</div>
+         <div class="text_todo">
+            <h2>TODO<span id="todo_count" class="todocount"></span></h2>
+            <form action="javascript:add_list()" id="get">
+              <input type="text" id="add" name="add" placeholder=" WHAT WANT TO DO" required="required"/>
+            </form>
+            <ul id="todo_list" class="todo-box">
+            </ul>
+           </div>
+          <div class="text_done">
+            <h2>DONE <span id="done_count" class="donecount"></span></h2>
+            <ul id="done_list" class="done-box">
+            </ul>
+            </div>
+            <script type="text/javascript" src="Q1.js"></script>
+     </body>
+ </html>
